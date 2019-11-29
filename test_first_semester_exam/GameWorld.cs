@@ -27,7 +27,7 @@ namespace test_first_semester_exam
 		protected override void Initialize()
 		{
 			// TODO: Add your initialization logic here
-
+			// TODO: Set screen size here.
 			base.Initialize();
 		}
 
