@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/alexq/Desktop/DATAMATIKER/Projekter/test_first_semester_exam/test_first_semester_exam/Content/Enemy.png</SourceFile>
-  <SourceTime>2019-12-02T10:36:37.4593826+01:00</SourceTime>
+  <SourceTime>2019-12-02T13:13:38.0357431+01:00</SourceTime>
   <DestFile>C:/Users/alexq/Desktop/DATAMATIKER/Projekter/test_first_semester_exam/test_first_semester_exam/Content/bin/Windows/Content/Enemy.xnb</DestFile>
-  <DestTime>2019-12-02T10:44:44.7626111+01:00</DestTime>
+  <DestTime>2019-12-02T13:48:42.8184494+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2019-10-15T21:28:30+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
