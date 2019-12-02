@@ -38,3 +38,6 @@ C:\Users\alexq\Desktop\DATAMATIKER\Projekter\test_first_semester_exam\test_first
 C:\Users\alexq\Desktop\DATAMATIKER\Projekter\test_first_semester_exam\test_first_semester_exam\obj\x86\Debug\test_first_semester_exam.csproj.CopyComplete
 C:\Users\alexq\Desktop\DATAMATIKER\Projekter\test_first_semester_exam\test_first_semester_exam\obj\x86\Debug\test_first_semester_exam.exe
 C:\Users\alexq\Desktop\DATAMATIKER\Projekter\test_first_semester_exam\test_first_semester_exam\obj\x86\Debug\test_first_semester_exam.pdb
+C:\Users\alexq\Desktop\DATAMATIKER\Projekter\test_first_semester_exam\test_first_semester_exam\bin\Windows\x86\Debug\Content\Bullet.xnb
+C:\Users\alexq\Desktop\DATAMATIKER\Projekter\test_first_semester_exam\test_first_semester_exam\bin\Windows\x86\Debug\Content\Enemy.xnb
+C:\Users\alexq\Desktop\DATAMATIKER\Projekter\test_first_semester_exam\test_first_semester_exam\bin\Windows\x86\Debug\Content\Player.xnb
