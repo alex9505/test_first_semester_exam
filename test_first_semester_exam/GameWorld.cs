@@ -12,6 +12,12 @@ namespace test_first_semester_exam
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 
+		// Create the variables for content that needs to be loaded in LoadContent() here: (Later move this to its own class?)
+		Texture2D playerSprite;
+		Texture2D enemySprite;
+		Texture2D bulletSprite;
+
+
 		public GameWorld()
 		{
 			graphics = new GraphicsDeviceManager(this);
@@ -27,7 +33,7 @@ namespace test_first_semester_exam
 		protected override void Initialize()
 		{
 			// TODO: Add your initialization logic here
-
+			// TODO: Set screen size here.
 			base.Initialize();
 		}
 
@@ -39,6 +45,10 @@ namespace test_first_semester_exam
 		{
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
+
+			playerSprite = Content.Load<Texture2D>("Player");
+			enemySprite = Content.Load<Texture2D>("Enemy");
+			bulletSprite = Content.Load<Texture2D>("Bullet");
 
 			// TODO: use this.Content to load your game content here
 		}
@@ -74,7 +84,11 @@ namespace test_first_semester_exam
 		protected override void Draw(GameTime gameTime)
 		{
 			GraphicsDevice.Clear(Color.CornflowerBlue);
-
+			spriteBatch.Begin();
+			spriteBatch.Draw(playerSprite, Vector2.Zero, Color.White);
+			spriteBatch.Draw(enemySprite, new Vector2(100, 100), Color.White);
+			spriteBatch.Draw(bulletSprite, new Vector2(200, 200), Color.White);
+			spriteBatch.End();
 			// TODO: Add your drawing code here
 
 			base.Draw(gameTime);
